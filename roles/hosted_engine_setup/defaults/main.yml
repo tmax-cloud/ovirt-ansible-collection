@@ -40,6 +40,8 @@ he_host_name: null
 he_host_address: null
 he_cloud_init_host_name: null
 he_cloud_init_domain_name: null
+he_prolinux_repo_address: null
+he_ovirt_repo_address: null
 
 he_smtp_port: 25
 he_smtp_server: localhost
@@ -92,6 +94,10 @@ he_iscsi_portal_port: null
 he_iscsi_portal_addr: null
 he_iscsi_tpgt: null
 he_discard: false
+
+## POSIX-FS vars:
+## Defaults are null, user should specify if POSIXFS is chosen
+he_vfs_type: null
 
 # Define if using STATIC ip configuration
 he_vm_ip_addr: null
