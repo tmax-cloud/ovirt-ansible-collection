@@ -5,11 +5,14 @@
 Name:		@PACKAGE_NAME@
 Summary:	Ansible collection to manage all ovirt modules and inventory
 Version:	@RPM_VERSION@
-Release:	@RPM_RELEASE@%{?release_suffix}%{?dist}
-Source0:	http://resources.ovirt.org/pub/src/@PACKAGE_NAME@/@PACKAGE_NAME@-@PACKAGE_VERSION@.tar.gz
+Release:	@RPM_RELEASE@%{?release_suffix}
+Source0:    https://github.com/tmax-cloud/ovirt-ansible-collection/archive/@PACKAGE_NAME@-@PACKAGE_VERSION@.tar.gz
 License:	ASL 2.0 and GPLv3+
 BuildArch:	noarch
-Url:		http://www.ovirt.org
+Url:        https://github.com/tmax-cloud/ovirt-ansible-collection
+Packager:   Tmax A&C Co., Ltd. <https://technet.tmaxsoft.com/>
+Vendor:     Tmax A&C Co., Ltd.
+Group:      Tmax A&C Co., Ltd.
 
 Requires:	ansible >= 2.9.21
 Requires:	python3-ovirt-engine-sdk4 >= 4.4.11
